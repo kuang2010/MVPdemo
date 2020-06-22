@@ -1,10 +1,6 @@
-package com.kuang2010.mvpdemo.view;
+package com.kuang2010.mvpdemo.mvp.view;
 
-import android.view.View;
-import android.widget.Toast;
-
-import com.kuang2010.mvpdemo.R;
-import com.kuang2010.mvpdemo.model.UserBean;
+import com.kuang2010.mvpdemo.mvp.model.UserBean;
 
 /**
  * author: kuangzeyu2019

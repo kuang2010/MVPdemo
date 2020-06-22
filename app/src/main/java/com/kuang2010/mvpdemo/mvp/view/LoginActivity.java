@@ -1,4 +1,4 @@
-package com.kuang2010.mvpdemo.view;
+package com.kuang2010.mvpdemo.mvp.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,9 +10,9 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.kuang2010.mvpdemo.R;
-import com.kuang2010.mvpdemo.model.UserBean;
-import com.kuang2010.mvpdemo.present.ILoginPresenter;
-import com.kuang2010.mvpdemo.present.LoginPresenter;
+import com.kuang2010.mvpdemo.mvp.model.UserBean;
+import com.kuang2010.mvpdemo.mvp.present.ILoginPresenter;
+import com.kuang2010.mvpdemo.mvp.present.LoginPresenter;
 
 /**
  * 登录的视图，相当于MVP模式中的View层，定义封装了对UI的操作方法（初始化和刷新UI），并通过持有Present层或其接口的引用，触发登录加载数据。

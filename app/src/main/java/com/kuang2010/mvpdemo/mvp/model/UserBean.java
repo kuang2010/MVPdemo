@@ -1,4 +1,4 @@
-package com.kuang2010.mvpdemo.model;
+package com.kuang2010.mvpdemo.mvp.model;
 
 /**
  * author: kuangzeyu2019

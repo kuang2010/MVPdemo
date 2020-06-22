@@ -1,9 +1,9 @@
-package com.kuang2010.mvpdemo.present;
+package com.kuang2010.mvpdemo.mvp.present;
 
-import com.kuang2010.mvpdemo.model.ILoginModel;
-import com.kuang2010.mvpdemo.model.LoginModel;
-import com.kuang2010.mvpdemo.model.UserBean;
-import com.kuang2010.mvpdemo.view.ILoginView;
+import com.kuang2010.mvpdemo.mvp.model.ILoginModel;
+import com.kuang2010.mvpdemo.mvp.model.LoginModel;
+import com.kuang2010.mvpdemo.mvp.model.UserBean;
+import com.kuang2010.mvpdemo.mvp.view.ILoginView;
 
 /**
  * author: kuangzeyu2019

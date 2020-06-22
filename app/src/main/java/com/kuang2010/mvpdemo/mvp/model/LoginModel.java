@@ -1,9 +1,9 @@
-package com.kuang2010.mvpdemo.model;
+package com.kuang2010.mvpdemo.mvp.model;
 
 import android.os.Handler;
 import android.text.TextUtils;
 
-import com.kuang2010.mvpdemo.present.OnLoginFinishListener;
+import com.kuang2010.mvpdemo.mvp.present.OnLoginFinishListener;
 
 /**
  * author: kuangzeyu2019
