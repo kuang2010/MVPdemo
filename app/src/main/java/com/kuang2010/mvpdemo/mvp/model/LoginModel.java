@@ -35,7 +35,7 @@ public class LoginModel implements ILoginModel{
                 }
 
                 UserBean userBean = new UserBean();
-                userBean.name = "Xiao ming";
+                userBean.name = "M V P";
                 loginFinishListener.onLoginSuccess(userBean);
 
 
