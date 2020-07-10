@@ -11,6 +11,8 @@ import com.kuang2010.mvpdemo.mvp.present.OnLoginFinishListener;
  * time: 18:06
  * desc: 具体登陆业务逻辑处理的实现。 相当于MVP模式中的Model层，定义封装了对数据的操作方法(获取数据),并且通过持有Present层或其接口的引用，通知刷新UI。
  * Model层不能出现对View层的引用
+ *
+ * M:提供数据模型+实现具体业务逻辑
  */
 public class LoginModel implements ILoginModel{
 

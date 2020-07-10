@@ -11,6 +11,8 @@ import com.kuang2010.mvpdemo.mvp.view.ILoginView;
  * time: 18:17
  * desc: 登录控制器，相当于MVP模式中的presenter,控制Model层和View层的交互和操作，通过持有M和V的引用或它们接口的引用，
  * 定义封装了 调用 m和v中方法 的方法及调用逻辑，
+ *
+ * P: M与V之间的交互和控制
  */
 public class LoginPresenter implements ILoginPresenter, OnLoginFinishListener {
 

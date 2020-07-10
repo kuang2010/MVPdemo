@@ -14,12 +14,16 @@ import com.kuang2010.mvpdemo.mvp.model.UserBean;
 import com.kuang2010.mvpdemo.mvp.present.ILoginPresenter;
 import com.kuang2010.mvpdemo.mvp.present.LoginPresenter;
 
+import java.lang.reflect.Proxy;
+
 /**
  * MVP主要是把从视图中Model抽出去，并使用Presenter交互和隔离View和Model。
  *
  *
  * 登录的视图，相当于MVP模式中的View层，定义封装了对UI的操作方法（初始化和刷新UI），并通过持有Present层或其接口的引用，触发登录加载数据。
  * View层不能出现对Model层的引用,实际上还是有，View与Model不是绝对的分离
+ *
+ * V:展现数据+跟用户交互
  * */
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener,ILoginView {
 
@@ -39,6 +43,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mProgress = findViewById(R.id.progress);
         mButton.setOnClickListener(this);
         mLoginPresenter = new LoginPresenter(this);
+
+        this.getClass().getClassLoader();
+        this.getClass().getInterfaces();
+//        Proxy.newProxyInstance(classLoader,classes,invocationHandler);
     }
 
     @Override
